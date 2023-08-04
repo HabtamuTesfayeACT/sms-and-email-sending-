@@ -5,8 +5,8 @@ from email.mime.multipart import MIMEMultipart
 def send_email(receiver_email):
     # Set up the SMTP server
     # Data
-    sender_email = 'Alazardg881@gmail.com'
-    sender_password = 'romrkuidpyfnwuti'
+    sender_email = 'sender email'
+    sender_password = 'sender password'
     smtp_server = 'smtp.gmail.com'
     subject = 'Hello from Python!'
     message = 'This is a test email sent from Python.'
@@ -28,7 +28,7 @@ def send_email(receiver_email):
     print('Email sent successfully to {}'.format(receiver_email))
 
 
-receiver_emails = ['habtamutesfaye678@gmail.com','habtamupro@gmail.com','habtamutesfaye.com.@gmail.com']  
+receiver_emails = ['reciver email(1)','reciver email(2)','reciver email(3)']  
 
 # Call the send_email function for each email address
 list(map(send_email, receiver_emails))
