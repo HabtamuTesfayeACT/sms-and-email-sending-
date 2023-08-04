@@ -1,9 +1,9 @@
 import requests
 
-apiSecret = "56236bfbe9417daa75df0a65c1212bc6e10c5dcf"
-phone_number = "+251979167656"
+apiSecret = "api key"
+phone_number = "phone number"
 message = "Hello, this is a test message."
-device = "00000000-0000-0000-c930-8c3ba197866b"
+device = "device id"
 sim = "1"
 priority = 1  
 
